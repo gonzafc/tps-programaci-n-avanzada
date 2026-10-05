@@ -1,0 +1,28 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.form-grid input, .form-grid select, .form-grid textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+.task-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+.btn-primary { background-color: #007bff; color: white; padding: 10px; border: none; cursor: pointer; }
+.btn-success { background-color: #28a745; color: white; padding: 5px 10px; border: none; cursor: pointer; margin-right: 5px;}
+.btn-danger { background-color: #dc3545; color: white; padding: 5px 10px; border: none; cursor: pointer; }
